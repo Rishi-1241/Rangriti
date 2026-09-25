@@ -24,7 +24,7 @@ export const SIZE_PRESETS: { label: string; sizes: string[] }[] = [
 ];
 
 export const UPLOAD = {
-  maxBytes: 8 * 1024 * 1024,
+  maxBytes: 4 * 1024 * 1024,
   maxFiles: 12,
   acceptedTypes: ["image/jpeg", "image/png", "image/webp", "image/avif"] as const,
 };
